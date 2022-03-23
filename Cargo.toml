@@ -1,0 +1,15 @@
+[package]
+name = "rs_brigadier"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "brigadier"
+
+[dependencies]
+slotmap = "1.0"
+async-trait = "0.1"
+nom = "7.1"
+thiserror = "1.0"
